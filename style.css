@@ -3,20 +3,21 @@
 
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    font-family: "Merriweather", serif;;
+body {
+    font-family: "Merriweather", serif;
+    ;
 }
 
 
 /* banner er style suru */
 
-.banner-content{
+.banner-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,9 +25,9 @@ body{
     height: 600px;
 }
 
-.banner-container{
-   max-width: 1320px;
-   border-radius: 30px;
+.banner-container {
+    max-width: 1320px;
+    border-radius: 30px;
     min-height: 600px;
     margin: 0 auto;
     margin-top: 20px;
@@ -34,33 +35,73 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
 
 }
 
-.banner-content p,h1{
+.banner-content p,
+h1 {
     color: #fff;
 
 }
 
-.banner-content p{
+.banner-content p {
     font-size: 32px;
     font-weight: 500;
 }
-.banner-content h1{
+
+.banner-content h1 {
     font-size: 72px;
     font-weight: 900;
 }
 
 /* 65% section styles here */
 
-.second-section-container{
+.second-section-container {
     width: 802.9px;
     height: 806px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 92px;
-    
 
+
+
+}
+
+.second-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-section-content h1 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.second-section-content p {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.second-section-content h3 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.image-container {
+    width: 802.9px;
+    height: 500px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
 }
