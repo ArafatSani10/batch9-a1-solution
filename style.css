@@ -12,3 +12,55 @@
 body{
     font-family: "Merriweather", serif;;
 }
+
+
+/* banner er style suru */
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+.banner-container{
+   max-width: 1320px;
+   border-radius: 30px;
+    min-height: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-image: url('new-year-offer-resources/images/Banner\ Image.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: overlay;
+
+}
+
+.banner-content p,h1{
+    color: #fff;
+
+}
+
+.banner-content p{
+    font-size: 32px;
+    font-weight: 500;
+}
+.banner-content h1{
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* 65% section styles here */
+
+.second-section-container{
+    width: 802.9px;
+    height: 806px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 92px;
+    
+
+}
