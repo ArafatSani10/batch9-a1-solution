@@ -244,3 +244,104 @@ box-shadow: 6px 10px 10px 5px;
     transition: all 0.5s ease;
 }
 
+
+/* cooming soon er style start here */
+
+   .comming-soon-container{
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    border: 2px solid red;
+    border-radius: 16px;
+    /* margin-top: 120px; */
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    
+   }
+
+   .first-width {
+         width: 33%;
+         height: 250px;
+         margin-bottom: 120px;
+   }
+
+   .first-width h4{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 120px;
+    
+   }
+
+   .first-width h1{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+margin-top: 20px;
+   }
+   .first-width p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+margin-top: 20px;
+
+   }
+
+
+   .second-width{
+    width: 33%;
+    height: 250px;
+    box-sizing: border-box;
+    border-radius: 15px solid rgb(255, 0, 0);
+    
+   }
+
+   .third-width{
+    width: 33%;
+    height: 250px;
+   }
+ .third-width h1{
+     color: rgb(255, 0, 0);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 20px;
+ }
+.third-width p{
+   color:rgba(7, 2, 17, 0.6) ; 
+   margin-top: 16px;
+}
+
+.third-width img{
+ 
+margin-top: 30px;
+}
+
+
+
+/* cooming soon er style ends here */
+
+
+/* what is functional style start here */
+         /* .functional-container{
+            width: 1320px;
+            height: 482px;
+            margin-top: 120px;
+            margin: 0 auto;
+            border: 2px solid red;
+            border-radius: 16px;
+            /* margin-top: 120px; */
+            display: flex;
+            justify-content: space-between;
+        
+            align-items: center;
+            
+         } */
+             
+/* what is functional style end here */
+
