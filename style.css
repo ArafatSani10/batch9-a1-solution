@@ -70,7 +70,7 @@ h1 {
 
 .second-section-content {
     display: flex;
-   
+
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -128,7 +128,7 @@ h1 {
     margin: 0 auto;
     margin-top: 50px;
     display: flex;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
     margin-top: 80px;
 
@@ -137,13 +137,13 @@ h1 {
 
 .leftside-content {
     width: 50%;
-   padding: 30px;
- 
+    padding: 30px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 
@@ -191,7 +191,7 @@ h1 {
 
 /* time-date-place styles */
 
-.time-date-place-container{
+.time-date-place-container {
 
     width: 1320px;
     height: 482px;
@@ -199,38 +199,40 @@ h1 {
     border: 2px solid red;
     border-radius: 16px;
 
-background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items:  center;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
 
 
 }
 
-.solved{
+.solved {
     width: 549px;
-height: 168px;
-font-family: Inter;
-font-size: 22px;
-font-weight: 600;
-line-height: 36px;
-letter-spacing: 0%;
-text-align: center;
-text-transform: capitalize;
-color: rgb(89, 85, 80);
-align-items: center;
-box-shadow: 6px 10px 10px 5px;
+    height: 168px;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(89, 85, 80);
+    align-items: center;
+    box-shadow: 6px 10px 10px 5px;
 }
-.solved span{
+
+.solved span {
     color: rgb(7, 2, 17);
 }
 
-.solved p{
+.solved p {
     color: rgb(255, 0, 0);
 }
-.solved .btn{
+
+.solved .btn {
     padding: 10px 12px 10px 12px;
     color: #fff;
     cursor: pointer;
@@ -239,7 +241,7 @@ box-shadow: 6px 10px 10px 5px;
     margin-top: 15.50px;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #652323;
     transition: all 0.5s ease;
 }
@@ -247,7 +249,7 @@ box-shadow: 6px 10px 10px 5px;
 
 /* cooming soon er style start here */
 
-   .comming-soon-container{
+.comming-soon-container {
     width: 1320px;
     height: 482px;
     margin: 0 auto;
@@ -258,68 +260,71 @@ box-shadow: 6px 10px 10px 5px;
     justify-content: space-between;
 
     align-items: center;
-    
-   }
 
-   .first-width {
-         width: 33%;
-         height: 250px;
-         margin-bottom: 120px;
-   }
+}
 
-   .first-width h4{
+.first-width {
+    width: 33%;
+    height: 250px;
+    margin-bottom: 120px;
+}
+
+.first-width h4 {
     color: rgb(255, 0, 0);
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     margin-top: 120px;
-    
-   }
 
-   .first-width h1{
+}
+
+.first-width h1 {
     color: rgb(7, 2, 17);
-font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
-margin-top: 20px;
-   }
-   .first-width p{
-    color: rgba(7, 2, 17, 0.6);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-margin-top: 20px;
-
-   }
-
-
-   .second-width{
-    width: 33%;
-    height: 250px;
-    box-sizing: border-box;
-    border-radius: 15px solid rgb(255, 0, 0);
-    
-   }
-
-   .third-width{
-    width: 33%;
-    height: 250px;
-   }
- .third-width h1{
-     color: rgb(255, 0, 0);
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
     margin-top: 20px;
- }
-.third-width p{
-   color:rgba(7, 2, 17, 0.6) ; 
-   margin-top: 16px;
 }
 
-.third-width img{
- 
-margin-top: 30px;
+.first-width p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+
+
+.second-width {
+    width: 33%;
+    height: 250px;
+    box-sizing: border-box;
+    border-radius: 15px solid rgb(255, 0, 0);
+
+}
+
+.third-width {
+    width: 33%;
+    height: 250px;
+}
+
+.third-width h1 {
+    color: rgb(255, 0, 0);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+.third-width p {
+    color: rgba(7, 2, 17, 0.6);
+    margin-top: 16px;
+}
+
+.third-width img {
+
+    margin-top: 30px;
 }
 
 
@@ -328,20 +333,61 @@ margin-top: 30px;
 
 
 /* what is functional style start here */
-         /* .functional-container{
-            width: 1320px;
-            height: 482px;
-            margin-top: 120px;
-            margin: 0 auto;
-            border: 2px solid red;
-            border-radius: 16px;
-            /* margin-top: 120px; */
-            display: flex;
-            justify-content: space-between;
-        
-            align-items: center;
-            
-         } */
-             
-/* what is functional style end here */
+.functional-container {
+    width: 1320px;
+    height: 482px;
+    margin-top: 120px;
+    margin: 0 auto;
+   
+    border-radius: 16px;
+    /* margin-top: 120px; */
+    display: flex;
+    justify-content: center;
 
+    align-items: center;
+    text-align: center;
+
+}
+
+.functional-content {
+    width: 1068px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.functional-content h4 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.functional-content span {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    color: rgb(255, 0, 0);
+}
+
+
+.functional-content h1 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    color: rgb(7, 2, 17);
+    margin-top: 30px;
+}
+
+.functional-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+    border: 2px solid blue;
+}
+
+/* what is functional style end here */
