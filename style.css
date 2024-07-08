@@ -335,7 +335,7 @@ h1 {
 /* what is functional style start here */
 .functional-container {
     width: 1320px;
-    height: 482px;
+    height: 985px;
     margin-top: 120px;
     margin: 0 auto;
    
@@ -346,16 +346,18 @@ h1 {
 
     align-items: center;
     text-align: center;
+    margin: 0 auto;
 
 }
 
 .functional-content {
-    width: 1068px;
-    height: 260px;
+    /* width: 1068px;
+    height: 260px; */
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .functional-content h4 {
@@ -390,4 +392,42 @@ h1 {
     border: 2px solid blue;
 }
 
+
+
 /* what is functional style end here */
+
+
+/* solid color styles start here */
+
+
+.solid-color-container{
+    width: 1320px;
+    height: 229px;
+    color: red;
+
+    margin: 0 auto;
+    position: relative;
+}
+
+.solid-color-content{
+    position: absolute;
+    top: 75%;
+}
+
+.giftbox{
+    width:  674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lal-image{
+    width:  674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+}
+
+/* solid color styles end here */
