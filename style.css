@@ -335,15 +335,12 @@ h1 {
 /* what is functional style start here */
 .functional-container {
     width: 1320px;
-    height: 985px;
+    height: 685px;
     margin-top: 120px;
     margin: 0 auto;
-   
     border-radius: 16px;
-    /* margin-top: 120px; */
     display: flex;
     justify-content: center;
-
     align-items: center;
     text-align: center;
     margin: 0 auto;
@@ -351,13 +348,13 @@ h1 {
 }
 
 .functional-content {
-    /* width: 1068px;
-    height: 260px; */
+    width: 1068px;
+    height: 260px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
 .functional-content h4 {
@@ -392,42 +389,110 @@ h1 {
     border: 2px solid blue;
 }
 
-
-
 /* what is functional style end here */
 
 
+
+
 /* solid color styles start here */
-
-
-.solid-color-container{
+.solid-color-container {
     width: 1320px;
-    height: 229px;
-    color: red;
+    height: 220px;
+    color: rgb(205, 182, 182);
 
     margin: 0 auto;
     position: relative;
+    margin-top: 120px;
+    margin-bottom: 100px;
 }
 
-.solid-color-content{
+.solid-color-content {
     position: absolute;
     top: 75%;
 }
 
-.giftbox{
-    width:  674.82px;
-    height: 577.96px;
+.giftbox {
+    width: 374.82px;
+    height: 160.96px;
     position: relative;
-    z-index: 1;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 30px;
 }
-.lal-image{
-    width:  674.82px;
-    height: 577.96px;
-    position: relative;
-    z-index: 1;
+
+.giftbox img {
+    width: 1 00;
+}
+
+.lal-image {
+    width: 10px;
+    margin-bottom: 50px;
 }
 
 /* solid color styles end here */
+
+/* portfolio styles start here */
+
+.portfolio-container {
+    width: 1390 px;
+    height: 900px;
+ 
+    margin: 0 auto;
+    width: 1320px;
+    height: 1163px;
+
+
+
+}
+
+
+.portfolio-text-content {
+    margin-top: 50px;
+}
+
+.portfolio-text-content h5 {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.portfolio-text-content h1 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+
+.portfolio-text-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+.items {
+    width: 424px;
+    height: 450px;
+    margin-top: 30px;
+}
+
+.items img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+/* portfolio styles ends here */
