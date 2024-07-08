@@ -196,7 +196,6 @@ h1 {
     width: 1320px;
     height: 482px;
     margin: 0 auto;
-    border: 2px solid red;
     border-radius: 16px;
 
     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
@@ -253,7 +252,6 @@ h1 {
     width: 1320px;
     height: 482px;
     margin: 0 auto;
-    border: 2px solid red;
     border-radius: 16px;
     /* margin-top: 120px; */
     display: flex;
@@ -522,7 +520,7 @@ h1 {
     flex-direction: column;
     border-radius: 16px;
 
-background: rgba(255, 0, 0, 0.05);
+    background: rgba(255, 0, 0, 0.05);
 }
 
 .newsletter-content h1 {
@@ -533,7 +531,7 @@ background: rgba(255, 0, 0, 0.05);
     margin-top: 40px;
     border-radius: 16px;
 
-background: rgba(255, 0, 0, 0.05);
+    background: rgba(255, 0, 0, 0.05);
 }
 
 .newsletter-content p {
@@ -544,22 +542,75 @@ background: rgba(255, 0, 0, 0.05);
     margin-top: 25px;
 }
 
-.btn-2{
+.btn-2 {
     border-radius: 0px 50px 50px 0px;
 
-background: rgb(255, 0, 0);
-color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 20px;
-font-weight: 600;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
 }
- 
 
-input{
+
+input {
     padding: 10px 20px 10px 20px;
     border-radius: 50px;
 
-background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
 }
 
 /* newsletter style end here */
+
+
+/* footer er styles start here */
+
+
+.footer-container {
+    width: 1320px;
+    height: 500px;
+    border: 2px solid red;
+    margin: 0 auto;
+    background-color: rgb(7, 2, 17);
+    color: #fff;
+    padding: 100px;
+}
+
+.contact{
+    display: flex;
+
+}
+
+.footer-first-section{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 50px;
+     margin-bottom: 50px;
+}
+
+.hr{
+    width: 90%;
+    margin:0 auto ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.icons{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-end-text{
+    width: 90%;
+    margin:0 auto ;
+   height: 30px;
+    display: flex;
+    justify-content: space-between;   
+}
+/* footer er styles ends here */
