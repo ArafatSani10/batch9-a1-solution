@@ -438,7 +438,7 @@ h1 {
 .portfolio-container {
     width: 1390 px;
     height: 900px;
- 
+
     margin: 0 auto;
     width: 1320px;
     height: 1163px;
@@ -496,3 +496,70 @@ h1 {
 }
 
 /* portfolio styles ends here */
+
+
+/* newsletter style start here */
+
+
+.newsletter-container {
+    width: 1320px;
+    height: 616px;
+    margin: 0 auto;
+    margin-top: 120px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.newsletter-content {
+    width: 896px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 16px;
+
+background: rgba(255, 0, 0, 0.05);
+}
+
+.newsletter-content h1 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 40px;
+    border-radius: 16px;
+
+background: rgba(255, 0, 0, 0.05);
+}
+
+.newsletter-content p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.btn-2{
+    border-radius: 0px 50px 50px 0px;
+
+background: rgb(255, 0, 0);
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+}
+ 
+
+input{
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+
+background: rgb(255, 255, 255);
+}
+
+/* newsletter style end here */
